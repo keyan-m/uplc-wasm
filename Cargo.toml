@@ -3,7 +3,7 @@ name = "uplc-wasm"
 version = "0.3.1"
 edition = "2021"
 description = "A WebAssembly (wasm) wrapper for the uplc crate"
-repository = "https://github.com/mpizenberg/uplc-wasm"
+repository = "https://github.com/keyan-m/uplc-wasm"
 license = "Apache-2.0"
 keywords = ["cardano", "wasm", "uplc"]
 categories = ["algorithms"]
@@ -18,7 +18,6 @@ uplc = { git = "https://github.com/aiken-lang/aiken.git", rev = "353f281e77e2650
 
 wasm-bindgen = "0.2.100"
 js-sys = "0.3.77"
-wee_alloc = "0.4.5"
 # required for wasm usage of getrandom
 getrandom = { version = "0.2", features = ["js"] }
 
